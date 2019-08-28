@@ -1,0 +1,14 @@
+{
+  "name": "music-app-project",
+  "version": "1.0.0",
+  "description": "A MERN Music Player Application",
+  "main": "index.js",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "repository": "https://github.com/pesto-students/music-app-project",
+  "author": "Karan Sapolia <sapoliakaran@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
