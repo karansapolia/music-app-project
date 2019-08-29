@@ -3,7 +3,8 @@
     "browser": true,
     "es6": true,
     "node": true,
-    "jest": true
+    "jest": true,
+    "mongo": true
   },
   "extends": ["airbnb", "prettier"],
   "globals": {
