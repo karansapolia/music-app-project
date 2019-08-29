@@ -5,5 +5,7 @@
   "semi": true,
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "printWidth": 120,
+  "quoteProps": "as-needed"
 }

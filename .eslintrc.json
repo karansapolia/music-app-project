@@ -17,6 +17,6 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
   "rules": {}
 }
