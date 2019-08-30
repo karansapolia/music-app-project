@@ -46,6 +46,8 @@ const FrontPage = () => {
     <GridLayout stackSize={12} columnSize="equal" verticalAlign="middle" textAlign="center">
       <SongCard />
       {placeholderImages}
+      {placeholderImages}
+      {placeholderImages}
     </GridLayout>
   );
 };
