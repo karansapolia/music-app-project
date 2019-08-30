@@ -6,6 +6,8 @@ import {
   Button,
   Comment,
   Grid,
+  Menu,
+  Input,
   Popup,
   Header,
   Segment,
@@ -14,4 +16,20 @@ import {
   Placeholder,
 } from 'semantic-ui-react';
 
-export { Form, Card, Icon, Image, Button, Comment, Grid, Popup, Header, Segment, FormField, Label, Placeholder };
+export {
+  Form,
+  Card,
+  Icon,
+  Image,
+  Button,
+  Comment,
+  Grid,
+  Menu,
+  Input,
+  Popup,
+  Header,
+  Segment,
+  FormField,
+  Label,
+  Placeholder,
+};
