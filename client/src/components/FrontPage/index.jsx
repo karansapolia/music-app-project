@@ -45,15 +45,17 @@ const RowElements = ({ index, children }) => (
 
 const FrontPage = () => {
   return (
-    <div className="frontPage">
-      <RowElements index={1}>
-        <SongCard />
-        <SongCard />
-        <SongCard />
-      </RowElements>
-      <RowElements index={2} />
-      <RowElements index={3} />
-    </div>
+    <>
+      <div className="frontPage">
+        <RowElements index={1}>
+          <SongCard />
+          <SongCard />
+          <SongCard />
+        </RowElements>
+        <RowElements index={2} />
+        <RowElements index={3} />
+      </div>
+    </>
   );
 };
 
