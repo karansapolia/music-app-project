@@ -10,6 +10,12 @@
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.0"
   },
+  "workspaces": {
+    "nohoist": [
+      "react-scripts",
+      "react-scripts/**"
+    ]
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
