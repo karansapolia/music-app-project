@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Card, Image, Icon } from 'semantic-ui-react';
+import { Card, Image, Icon } from '../common/helpers';
 
 const SongCard = ({ coverImage, name, artist, album, length, likes }) => (
   <Card>
