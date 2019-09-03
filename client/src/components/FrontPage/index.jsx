@@ -1,7 +1,7 @@
 import React from 'react';
-import { Card, Placeholder } from 'semantic-ui-react';
-import './styles.css';
 import PropTypes from 'prop-types';
+import { Card, Placeholder } from '../common/helpers';
+import './styles.css';
 import SongCard from '../SongCard/index';
 
 const placeholderImages = (
