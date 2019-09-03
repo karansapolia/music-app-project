@@ -1,9 +1,10 @@
-import express from 'express';
+import { Router } from 'express';
 import { signinController, signupController } from '../controllers/auth';
+import { signInValidity, signUpValidity } from '../middlewares/user';
 
-const router = express.Router();
+const router = Router();
 
-router.get('/signin', signinController);
-router.get('/signup', signupController);
+router.post('/signin', signInValidity, signinController);
+router.post('/signup', signUpValidity, signupController);
 
 export default router;
