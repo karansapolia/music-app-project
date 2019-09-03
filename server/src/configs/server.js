@@ -5,6 +5,7 @@ import env from './env';
 import routes from '../routes';
 
 const app = () => {
+  let application;
   const server = express();
 
   const create = () => {
@@ -18,14 +19,27 @@ const app = () => {
 
   const start = () => {
     const port = server.get('port');
-    server.listen(port, () => {
+    application = server.listen(port, () => {
       console.log(`server listening on port ${port}`);
     });
   };
 
+  const stop = () => {
+    application.close(() => {
+      console.log('Shutting down server');
+      process.exit(0);
+    });
+
+    setTimeout(() => {
+      console.log('Could not close connection gracefully, forcefully shutting down');
+      process.exit(1);
+    }, 10000);
+  }
+
   return {
     create,
     start,
+    stop,
   };
 };
 
