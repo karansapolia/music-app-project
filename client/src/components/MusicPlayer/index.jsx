@@ -6,7 +6,9 @@ const MusicPlayer = () => {
   const [playState, setPlayState] = useState(false);
   return (
     <div className="music-player">
-      <Button circular icon="like" content="like" />
+      <div>
+        <Button circular icon="like" content="like" />
+      </div>
       <div>
         <Button circular icon="left chevron" />
         {playState ? (

@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Card, Placeholder } from '../common/helpers';
-import './styles.css';
 import SongCard from '../SongCard/index';
+import GridLayout from '../common/GridLayout';
 
 const placeholderImages = (
   <>
@@ -39,33 +39,22 @@ const placeholderImages = (
   </>
 );
 
-const RowElements = ({ index, children }) => (
-  <div className={`songs-row-${index}`}>{children || placeholderImages}</div>
-);
+const RowElements = ({ children }) => <div>{children || placeholderImages}</div>;
 
 const FrontPage = () => {
   return (
-    <>
-      <div className="frontPage">
-        <RowElements index={1}>
-          <SongCard />
-          <SongCard />
-          <SongCard />
-        </RowElements>
-        <RowElements index={2} />
-        <RowElements index={3} />
-      </div>
-    </>
+    <GridLayout stackSize={12} columnSize="equal" verticalAlign="middle" textAlign="center">
+      <SongCard />
+      {placeholderImages}
+    </GridLayout>
   );
 };
 
 RowElements.propTypes = {
-  index: PropTypes.number,
   children: PropTypes.node,
 };
 
 RowElements.defaultProps = {
-  index: 2,
   children: placeholderImages,
 };
 
