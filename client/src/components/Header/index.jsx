@@ -1,11 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Menu, Input } from '../common/helpers';
 import Logo from '../Logo';
+import { ModalOpenContext } from '../../helpers/ModalOpenContext';
 import './styles.css';
 
 const Header = () => {
-  const [activeItem, setActiveItem] = useState('logo');
-  const handleItemClick = (event, { name }) => setActiveItem(name);
+  const [activeItem, setActiveItem] = useState('');
+  const [state, setState] = useContext(ModalOpenContext);
+
+  const handleItemClick = (event, { name }) => {
+    setActiveItem(name);
+    if (name === 'sign-in') {
+      setState(state => ({ ...state, dimmer: 'blurring', open: true }));
+    }
+  };
 
   return (
     <Menu stackable fluid fixed="top" widths="3">
@@ -16,7 +24,7 @@ const Header = () => {
         <Input className="icon" icon="search" placeholder="Search..." />
       </Menu.Item>
       <Menu.Item name="sign-in" active={activeItem === 'sign-in'} onClick={handleItemClick}>
-        Sign in
+        Sign In
       </Menu.Item>
     </Menu>
   );

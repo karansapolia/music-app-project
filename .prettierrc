@@ -6,6 +6,6 @@
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
   "trailingComma": "all",
-  "printWidth": 120,
+  "printWidth": 100,
   "quoteProps": "as-needed"
 }

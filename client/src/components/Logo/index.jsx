@@ -5,7 +5,7 @@ import './styles.css';
 const Logo = () => (
   <nav>
     <Link to="/">
-      <img src="./logo192.png" alt="logo" />
+      <img src="../../assets/logo192.png" alt="logo" />
     </Link>
   </nav>
 );
