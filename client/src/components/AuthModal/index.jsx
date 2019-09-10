@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Modal } from '../common/helpers';
-import { ModalOpenContext } from '../../helpers/ModalOpenContext';
+import { ModalOpenContext } from '../../contexts/ModalOpenContext';
 import Authentication from '../containers/Authentication';
 
 const AuthModal = () => {

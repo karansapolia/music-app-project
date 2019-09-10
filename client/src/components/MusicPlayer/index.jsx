@@ -1,22 +1,24 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Button } from '../common/helpers';
 import './styles.css';
+import useMusicPlayer from '../../hooks/useMusicPlayer';
 
 const MusicPlayer = () => {
-  const [playState, setPlayState] = useState(false);
+  const { isPlaying, currentTrackName, togglePlay, playPreviousTrack, playNextTrack } = useMusicPlayer();
   return (
     <div className="music-player">
       <div>
         <Button circular icon="like" content="like" />
       </div>
       <div>
-        <Button circular icon="left chevron" />
-        {playState ? (
-          <Button circular icon="pause" content="pause" onClick={() => setPlayState(false)} />
+        <Button circular icon="left chevron" onClick={playPreviousTrack} />
+        {isPlaying ? (
+          <Button circular icon="pause" content="pause" onClick={togglePlay} />
         ) : (
-          <Button circular icon="play" content="play" onClick={() => setPlayState(true)} />
+          <Button circular icon="play" content="play" onClick={togglePlay} />
         )}
-        <Button circular icon="right chevron" />
+        <Button circular icon="right chevron" onClick={playNextTrack} />
+        <h2>{currentTrackName}</h2>
       </div>
       <div>
         <Button circular icon="shuffle" />
