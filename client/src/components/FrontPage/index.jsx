@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Card, Placeholder } from '../common/helpers';
 import SongCard from '../SongCard/index';
 import GridLayout from '../common/GridLayout';
+import useMusicPlayer from '../../hooks/useMusicPlayer';
 
 const placeholderImages = (
   <>
@@ -42,12 +43,12 @@ const placeholderImages = (
 const RowElements = ({ children }) => <div>{children || placeholderImages}</div>;
 
 const FrontPage = () => {
+  const { trackList, currentTrackName, playTrack, isPlaying } = useMusicPlayer();
   return (
-    <GridLayout stackSize={12} columnSize="equal" verticalAlign="middle" textAlign="center">
-      <SongCard />
-      {placeholderImages}
-      {placeholderImages}
-      {placeholderImages}
+    <GridLayout stackSize={16} columnSize="equal" verticalAlign="middle" textAlign="center">
+      {trackList.map((track, index) => (
+        <SongCard key={track.name} name={track.name} onClick={() => playTrack(index)} />
+      ))}
     </GridLayout>
   );
 };

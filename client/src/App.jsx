@@ -5,16 +5,19 @@ import Header from './components/Header';
 import FrontPage from './components/FrontPage';
 import MusicPlayer from './components/MusicPlayer';
 import AuthModal from './components/AuthModal';
-import { ModalContextProvider } from './helpers/ModalOpenContext';
+import { ModalContextProvider } from './contexts/ModalOpenContext';
+import { MusicPlayerProvider } from './contexts/MusicPlayerContext';
 
 function App() {
   return (
     <div className="App">
       <ModalContextProvider>
-        <AuthModal />
-        <Header />
-        <FrontPage />
-        <MusicPlayer />
+        <MusicPlayerProvider>
+          <AuthModal />
+          <Header />
+          <FrontPage />
+          <MusicPlayer />
+        </MusicPlayerProvider>
       </ModalContextProvider>
     </div>
   );

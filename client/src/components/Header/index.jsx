@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { Menu, Input } from '../common/helpers';
 import Logo from '../Logo';
-import { ModalOpenContext } from '../../helpers/ModalOpenContext';
+import { ModalOpenContext } from '../../contexts/ModalOpenContext';
 import './styles.css';
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <Menu stackable fluid fixed="top" widths="3">
+    <Menu stackable fluid borderless fixed="top" widths="3">
       <Menu.Item name="logo" icon active={activeItem === 'logo'} onClick={handleItemClick}>
         <Logo />
       </Menu.Item>

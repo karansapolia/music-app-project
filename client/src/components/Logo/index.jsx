@@ -1,11 +1,16 @@
 import React from 'react';
 import { Link } from '@reach/router';
-import './styles.css';
+import { Image } from '../common/helpers';
 
 const Logo = () => (
   <nav>
     <Link to="/">
-      <img src="../../assets/logo192.png" alt="logo" />
+      <Image 
+        src="./logo192.png" 
+        alt="logo"
+        size="mini"
+        centered
+      />
     </Link>
   </nav>
 );
