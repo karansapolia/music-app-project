@@ -15,7 +15,7 @@ import {
   FormField,
   Label,
   Placeholder,
-  Container
+  Container,
 } from 'semantic-ui-react';
 
 export {
