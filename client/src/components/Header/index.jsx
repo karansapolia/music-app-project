@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { Menu, Input } from '../common/helpers';
+import { Menu, Input, Container } from '../common/helpers';
 import Logo from '../Logo';
 import { ModalOpenContext } from '../../contexts/ModalOpenContext';
 import './styles.css';
@@ -16,16 +16,18 @@ const Header = () => {
   };
 
   return (
-    <Menu stackable fluid borderless fixed="top" widths="3">
-      <Menu.Item name="logo" icon active={activeItem === 'logo'} onClick={handleItemClick}>
-        <Logo />
-      </Menu.Item>
-      <Menu.Item name="search" active={activeItem === 'search'} onClick={handleItemClick}>
-        <Input className="icon" icon="search" placeholder="Search..." />
-      </Menu.Item>
-      <Menu.Item name="sign-in" active={activeItem === 'sign-in'} onClick={handleItemClick}>
+    <Menu fluid borderless fixed="top" widths="3">
+      <Container>
+        <Menu.Item name="logo" icon active={activeItem === 'logo'} onClick={handleItemClick}>
+          <Logo />
+        </Menu.Item>
+        <Menu.Item name="search" active={activeItem === 'search'} onClick={handleItemClick}>
+          <Input className="icon" icon="search" placeholder="Search..." />
+        </Menu.Item>
+        <Menu.Item name="sign-in" active={activeItem === 'sign-in'} onClick={handleItemClick}>
         Sign In
-      </Menu.Item>
+        </Menu.Item>
+      </Container>
     </Menu>
   );
 };
