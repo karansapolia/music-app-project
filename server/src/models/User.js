@@ -6,11 +6,13 @@ const userSchema = new mongoose.Schema(
     name: {
       type: String,
       required: true,
+      trim: true,
     },
     email: {
       type: String,
       unique: true,
       required: true,
+      trim: true,
     },
     password: {
       type: String,
@@ -19,9 +21,11 @@ const userSchema = new mongoose.Schema(
     userName: {
       type: String,
       unique: true,
+      trim: true,
     },
     profileImage: {
       type: String,
+      default: 'https://react.semantic-ui.com/images/avatar/small/matt.jpg',
     },
   },
   {

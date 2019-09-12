@@ -1,10 +1,9 @@
 import User from "../models/User";
-import destructureData from '../utils';
-import { newToken } from '../utils/auth';
+import destructureData from '../utils/index';
+import { newToken } from '../utils/jwtToken';
 
 const health = (req, res) => {
-  res.status(200);
-  res.json({ status: 'ok' });
+  res.status(200).json({ status: 'ok' });
 };
 
 const signinController = async (req, res) => {
@@ -19,7 +18,8 @@ const signinController = async (req, res) => {
       return res.status(200).json({
         success: true,
         message: 'Sign-in successful',
-        user: { ...userData, token }
+        token,
+        user: { ...userData }
       });
     }
     return res.status(400).json({
@@ -40,10 +40,11 @@ const signupController = async (req, res) => {
     const userData = destructureData(user);
     const token = newToken(userData);
     if (token) {
-      return res.status(200).json({
+      return res.status(201).json({
         success: true,
         message: 'Sign-up successful',
-        user: { ...userData, token }
+        token,
+        user: { ...userData }
       });
     }
     return res.status(500).json({

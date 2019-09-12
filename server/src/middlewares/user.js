@@ -1,9 +1,4 @@
-const isEmpty = value => {
-  const hasNoValue = value === undefined || value === null;
-  const isEmptyObject = typeof value === 'object' && Object.keys(value).length === 0;
-  const isEmptyString = typeof value === 'string' && value.trim().length === 0;
-  return hasNoValue || isEmptyObject || isEmptyString;
-};
+import isEmpty from '../utils/validations/isEmpty';
 
 const addErrorIfEmpty = (errorObj, object, key) => {
   if (isEmpty(object[key])) {
@@ -28,7 +23,14 @@ const validateEmail = (email) => {
   return emailRegex.test(String(email).toLowerCase());
 };
 
+const validateImageUrl = (profileImage) => {
+  const imageUrlRegex = /(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png)/;
+  return imageUrlRegex.test(String(profileImage));
+}
+
 const addErrorIfNotEmail = addErrorIfNotValid(validateEmail, 'email');
+
+const addErrorIfNotImageUrl = addErrorIfNotValid(validateImageUrl, 'profileImage');
 
 const getErrorsForProperties = (properties, object) => {
   const errors = properties.reduce((currentErrors, property) => addErrorIfEmpty(currentErrors, object, property), {});
@@ -49,7 +51,8 @@ function validateSignUp(user) {
     ['email', [addErrorIfEmpty, addErrorIfNotString, addErrorIfNotEmail]],
     ['password', [addErrorIfEmpty, addErrorIfNotString]],
     ['name', [addErrorIfEmpty, addErrorIfNotString]],
-    ['username', [addErrorIfEmpty, addErrorIfNotString]],
+    ['userName', [addErrorIfEmpty, addErrorIfNotString]],
+    ['profileImage', [addErrorIfNotImageUrl]],
   ];
   const isValidAndErrors = getErrorsForProperties(propertiesToCheck, user);
   return isValidAndErrors;
