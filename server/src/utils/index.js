@@ -3,14 +3,14 @@ const destructureData = ({
   name,
   email,
   userName,
-  profileImage
+  profileImage,
 }) => {
     return {
       id,
       name,
       email,
       userName,
-      profileImage
+      profileImage,
     };
 };
 

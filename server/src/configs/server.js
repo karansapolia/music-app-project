@@ -1,5 +1,4 @@
 import express from 'express';
-import { json, urlencoded } from 'body-parser';
 import cors from 'cors';
 import env from './env';
 import routes from '../routes';
@@ -10,8 +9,8 @@ const app = () => {
 
   const create = () => {
     server.set('port', env.port);
-    server.use(json());
-    server.use(urlencoded({ extended: true }));
+    server.use(express.json());
+    server.use(express.urlencoded({ extended: true }));
     // server.use(cors);
 
     routes.init(server);
