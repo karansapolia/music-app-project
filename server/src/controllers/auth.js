@@ -1,4 +1,4 @@
-import User from "../models/User";
+import User from '../models/User';
 import destructureData from '../utils/index';
 import { newToken } from '../utils/jwtToken';
 
@@ -18,8 +18,7 @@ const signinController = async (req, res) => {
       return res.status(200).json({
         success: true,
         message: 'Sign-in successful',
-        token,
-        user: { ...userData }
+        user: { ...userData, token },
       });
     }
     return res.status(400).json({
@@ -43,8 +42,7 @@ const signupController = async (req, res) => {
       return res.status(201).json({
         success: true,
         message: 'Sign-up successful',
-        token,
-        user: { ...userData }
+        user: { ...userData, token },
       });
     }
     return res.status(500).json({
