@@ -1,15 +1,17 @@
 import React, { useContext } from 'react';
 import { Modal } from '../common/helpers';
-import { ModalOpenContext } from '../../contexts/ModalOpenContext';
+import GlobalContext from '../../contexts/GlobalContext';
+import { MODAL_STATE } from '../../contexts/constants';
 import Authentication from '../containers/Authentication';
 
 const AuthModal = () => {
-  const [state, setState] = useContext(ModalOpenContext);
+  const { state, dispatch } = useContext(GlobalContext);
 
-  const close = () => setState(state => ({ ...state, open: false }));
+  const close = () =>
+    dispatch({ type: MODAL_STATE, payload: { ...state.modalState, open: false } });
 
   return (
-    <Modal dimmer={state.dimmer} open={state.open} onClose={close}>
+    <Modal dimmer={state.modalState.dimmer} open={state.modalState.open} onClose={close}>
       <Authentication />
     </Modal>
   );

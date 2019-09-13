@@ -11,7 +11,7 @@ const app = () => {
     server.set('port', env.port);
     server.use(express.json());
     server.use(express.urlencoded({ extended: true }));
-    // server.use(cors);
+    server.use(cors());
 
     routes.init(server);
   };
