@@ -11,7 +11,16 @@ const app = () => {
     server.set('port', env.port);
     server.use(express.json());
     server.use(express.urlencoded({ extended: true }));
-    server.use(cors());
+    server.options('*', cors());
+    server.use(
+      cors({
+        credentials: true,
+        allowedHeaders: ['Content-Type', 'Authorization'],
+        methods: '*',
+        origin: '*',
+        exposedHeaders: '*',
+      }),
+    );
 
     routes.init(server);
   };
@@ -33,7 +42,7 @@ const app = () => {
       console.log('Could not close connection gracefully, forcefully shutting down');
       process.exit(1);
     }, 10000);
-  }
+  };
 
   return {
     create,
