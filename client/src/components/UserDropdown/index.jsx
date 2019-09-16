@@ -11,19 +11,24 @@ const UserDropdown = () => {
 
   const userProfileImage = (
     <span>
-      <Image circular src={profile.profileImage} alt="user avatar" />
+      <Image circular size="mini" src={profile.profileImage} alt="user avatar" />
     </span>
   );
 
   return (
     <Dropdown trigger={userProfileImage} item floating pointing="top right">
-      <Dropdown.Menu direction='left'>
+      <Dropdown.Menu direction="left">
         <Dropdown.Item text={`Welcome ${name}!`} onClick={() => {}} />
-        <Dropdown.Item text="Playlists" onClick={() => {console.log('Show playlists')}} />
+        <Dropdown.Item
+          text="Playlists"
+          onClick={() => {
+            console.log('Show playlists');
+          }}
+        />
         <Dropdown.Item text="Sign Out" onClick={onLogout} />
       </Dropdown.Menu>
     </Dropdown>
-  )
+  );
 };
 
 export default UserDropdown;
