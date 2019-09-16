@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import { Menu, Input, Container } from '../common/helpers';
 import UserDropdown from '../UserDropdown';
 import Logo from '../Logo';
@@ -26,17 +26,21 @@ const Header = () => {
         <Menu.Item name="search">
           <Input className="icon" icon="search" placeholder="Search..." />
         </Menu.Item>
-        {
-          state.user.token ? (
-            <Menu.Item name="user-profile" onClick={handleItemClick}>
-              <UserDropdown />
-            </Menu.Item>
-          ): (
-            <Menu.Item name="sign-in" onClick={handleItemClick}>
-              <p>Sign In</p>
-            </Menu.Item>
-          )
-        }
+        {state.user && state.user.token ? (
+          <Menu.Item
+            name="user-profile"
+            style={{
+              position: 'relative',
+              right: '30px',
+            }}
+          >
+            <UserDropdown />
+          </Menu.Item>
+        ) : (
+          <Menu.Item name="sign-in" onClick={handleItemClick}>
+            <p>Sign In</p>
+          </Menu.Item>
+        )}
       </Container>
     </Menu>
   );
