@@ -1,4 +1,3 @@
-import { request } from 'http';
 import User from '../models/User';
 import destructureData from '../utils/index';
 import { newToken, verifyToken } from '../utils/jwtToken';

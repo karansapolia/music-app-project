@@ -17,3 +17,7 @@
   flex-shrink: 10;
   flex-grow: 1;
 }
+
+#play-button {
+  width: 7rem;
+}

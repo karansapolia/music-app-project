@@ -23,9 +23,9 @@ const MusicPlayer = () => {
         <div>
           <Button circular icon="left chevron" onClick={playPreviousTrack} />
           {isPlaying ? (
-            <Button circular icon="pause" content="pause" onClick={togglePlay} />
+            <Button id="play-button" circular icon="pause" onClick={togglePlay} />
           ) : (
-            <Button circular icon="play" content="play" onClick={togglePlay} />
+            <Button id="play-button" circular icon="play" onClick={togglePlay} />
           )}
           <Button circular icon="right chevron" onClick={playNextTrack} />
         </div>
