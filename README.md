@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dc5dd473-da29-48e4-86a3-69c13ea062a1/deploy-status)](https://app.netlify.com/sites/groove-music/deploys)
+
 ## Music Player Application
 
 ### Features
@@ -9,7 +11,7 @@
 5. User should be able to like a song
 6. User should be able to create a playlist
 7. Song should have details like a cover image, singer, album
-8. App should have a music player component, accessible across all pages of the website. 
+8. App should have a music player component, accessible across all pages of the website.
 9. User should be able to keep playing music across app pages
 10. Music player component should show playing song details, allow user to play/pause song and control volume.
 11. User playlists should be public
