@@ -9,7 +9,15 @@
     "server"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server:dev": "cd server && yarn dev",
+    "client:dev": "cd client && yarn start",
+    "dev": "concurrently \"yarn server:dev\" \"yarn client:dev\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "cd client && yarn format && yarn lint && cd ../server && yarn format && yarn lint && cd .. && git add ."
+    }
   },
   "repository": {
     "type": "git",
@@ -25,5 +33,10 @@
   "bugs": {
     "url": "https://github.com/karansapolia/music-app-project/issues"
   },
-  "homepage": "https://github.com/karansapolia/music-app-project#readme"
+  "homepage": "https://github.com/karansapolia/music-app-project#readme",
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11"
+  }
 }

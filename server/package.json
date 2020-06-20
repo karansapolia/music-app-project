@@ -4,7 +4,9 @@
   "description": "music-app-project-new server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier \"src/**/*.js\"",
+    "lint": "eslint \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
