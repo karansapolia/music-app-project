@@ -1,0 +1,29 @@
+{
+  "name": "music-app-project-new",
+  "version": "1.0.0",
+  "description": "A MERN Music player application",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/karansapolia/music-app-project.git"
+  },
+  "keywords": [
+    "MERN",
+    "Music",
+    "Player"
+  ],
+  "author": "Karan Sapolia <sapoliakaran@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karansapolia/music-app-project/issues"
+  },
+  "homepage": "https://github.com/karansapolia/music-app-project#readme"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "music-app-project-new server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/karansapolia/music-app-project.git"
+  },
+  "author": "Karan Sapolia <sapoliakaran@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karansapolia/music-app-project/issues"
+  },
+  "homepage": "https://github.com/karansapolia/music-app-project#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}
