@@ -1,0 +1,1074 @@
+{
+  "tracks": [
+    {
+      "track_id": "3216628",
+      "seokey": "jee-karda-6",
+      "albumseokey": "badlapur",
+      "track_title": "Jee Karda",
+      "album_id": "278017",
+      "album_title": "Badlapur",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/17/278017/crop_80x80_278017.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/17/278017/crop_175x175_278017.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/17/278017/crop_480x480_278017.jpg",
+      "artist": [
+        {
+          "artist_id": "13506",
+          "name": "Divya Kumar",
+          "seokey": "divya-kumar"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "56",
+          "name": "Bollywood"
+        }
+      ],
+      "lyrics_url": "",
+      "video_url": "",
+      "popularity": "4044575~76189",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "241",
+      "isrc": "0",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "0"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "0",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "11380"
+    },
+    {
+      "track_id": "2962929",
+      "seokey": "jaise-mera-tu",
+      "albumseokey": "happy-ending-hindi",
+      "track_title": "Jaise Mera Tu",
+      "album_id": "242543",
+      "album_title": "Happy Ending",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/43/242543/crop_80x80_242543.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/43/242543/crop_175x175_242543.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/43/242543/crop_480x480_242543.jpg",
+      "artist": [
+        {
+          "artist_id": "52767",
+          "name": "Arijit Singh",
+          "seokey": "arijit-singh"
+        },
+        {
+          "artist_id": "194425",
+          "name": "Priya Saraiya",
+          "seokey": "priya-saraiya"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "56",
+          "name": "Bollywood"
+        }
+      ],
+      "lyrics_url": "",
+      "video_url": "",
+      "popularity": "4044575~839465",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "255",
+      "isrc": "0",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "0",
+          "high": "0",
+          "extreme": "0"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "0",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "11380"
+    },
+    {
+      "track_id": "3032150",
+      "seokey": "dance-basanti-from-ungli",
+      "albumseokey": "dance-basanti-from-ungli",
+      "track_title": "Dance Basanti (From Ungli)",
+      "album_id": "258280",
+      "album_title": "Dance Basanti (From Ungli)",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/80/258280/crop_80x80_258280.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/80/258280/crop_175x175_258280.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/80/258280/crop_480x480_258280.jpg",
+      "artist": [
+        {
+          "artist_id": "107",
+          "name": "Anushka Manchanda",
+          "seokey": "anushka-manchanda"
+        },
+        {
+          "artist_id": "143",
+          "name": "Vishal Dadlani",
+          "seokey": "vishal-dadlani"
+        },
+        {
+          "artist_id": "86611",
+          "name": "Sachin - Jigar",
+          "seokey": "sachin-jigar-1"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "56",
+          "name": "Bollywood"
+        }
+      ],
+      "lyrics_url": "",
+      "video_url": "",
+      "popularity": "4044575~885508",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "223",
+      "isrc": "INS171402222",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "0",
+          "high": "0",
+          "extreme": "0"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "0",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "17"
+    },
+    {
+      "track_id": "3164292",
+      "seokey": "superman-124",
+      "albumseokey": "tevar",
+      "track_title": "Superman",
+      "album_id": "268395",
+      "album_title": "Tevar",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/95/268395/crop_80x80_268395.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/95/268395/crop_175x175_268395.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/95/268395/crop_480x480_268395.jpg",
+      "artist": [
+        {
+          "artist_id": "271",
+          "name": "Wajid",
+          "seokey": "wajid"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "56",
+          "name": "Bollywood"
+        }
+      ],
+      "lyrics_url": "http://www.lyricsmint.com/2014/11/superman-tevar.html",
+      "video_url": "",
+      "popularity": "4044575~417569",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "268",
+      "isrc": "0",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "0"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "0",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "11380"
+    },
+    {
+      "track_id": "3043579",
+      "seokey": "keeda",
+      "albumseokey": "action-jackson",
+      "track_title": "Keeda",
+      "album_id": "259249",
+      "album_title": "Action Jackson",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/49/259249/crop_80x80_259249.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/49/259249/crop_175x175_259249.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/49/259249/crop_480x480_259249.jpg",
+      "artist": [
+        {
+          "artist_id": "13",
+          "name": "Himesh Reshammiya",
+          "seokey": "himesh-reshammiya"
+        },
+        {
+          "artist_id": "125941",
+          "name": "Neeti Mohan",
+          "seokey": "neeti-mohan"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "56",
+          "name": "Bollywood"
+        }
+      ],
+      "lyrics_url": "http://www.lyricsmint.com/2014/10/keeda-action-jackson.html",
+      "video_url": "",
+      "popularity": "4044575~491536",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "184",
+      "isrc": "0",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "0",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "11380"
+    },
+    {
+      "track_id": "3035575",
+      "seokey": "saanson-ko-from-zid",
+      "albumseokey": "saanson-ko-from-zid",
+      "track_title": "Saanson Ko (From Zid)",
+      "album_id": "258476",
+      "album_title": "Saanson Ko (From Zid)",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/76/258476/crop_80x80_258476.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/76/258476/crop_175x175_258476.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/76/258476/crop_480x480_258476.jpg",
+      "artist": [
+        {
+          "artist_id": "52767",
+          "name": "Arijit Singh",
+          "seokey": "arijit-singh"
+        },
+        {
+          "artist_id": "330785",
+          "name": "Sharib Toshi",
+          "seokey": ""
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "56",
+          "name": "Bollywood"
+        }
+      ],
+      "lyrics_url": "",
+      "video_url": "",
+      "popularity": "4044575~697289",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "286",
+      "isrc": "INS171402346",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "1",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "17"
+    },
+    {
+      "track_id": "2962845",
+      "seokey": "mileya-mileya",
+      "albumseokey": "happy-ending-hindi",
+      "track_title": "Mileya Mileya",
+      "album_id": "242543",
+      "album_title": "Happy Ending",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/43/242543/crop_80x80_242543.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/43/242543/crop_175x175_242543.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/43/242543/crop_480x480_242543.jpg",
+      "artist": [
+        {
+          "artist_id": "328441",
+          "name": "Priya Andrews",
+          "seokey": "priya-andrews"
+        },
+        {
+          "artist_id": "451",
+          "name": "Rekha Bhardwaj",
+          "seokey": "rekha-bhardwaj"
+        },
+        {
+          "artist_id": "47372",
+          "name": "Jigar Saraiya",
+          "seokey": "jigar-saraiya"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "56",
+          "name": "Bollywood"
+        }
+      ],
+      "lyrics_url": "",
+      "video_url": "",
+      "popularity": "4044575~555659",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "266",
+      "isrc": "0",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "0",
+          "high": "0",
+          "extreme": "0"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "0",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "11380"
+    },
+    {
+      "track_id": "2596984",
+      "seokey": "samjhawan",
+      "albumseokey": "humpty-sharma-ki-dulhania-original-motion-picture-soundtrack",
+      "track_title": "Samjhawan",
+      "album_id": "220083",
+      "album_title": "Humpty Sharma Ki Dulhania (OST)",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/83/220083/crop_80x80_220083.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/83/220083/crop_175x175_220083.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/83/220083/crop_480x480_220083.jpg",
+      "artist": [
+        {
+          "artist_id": "4",
+          "name": "Shreya Ghoshal",
+          "seokey": "shreya-ghoshal"
+        },
+        {
+          "artist_id": "342",
+          "name": "Jawad Ahmed",
+          "seokey": "jawad-ahmed"
+        },
+        {
+          "artist_id": "52767",
+          "name": "Arijit Singh",
+          "seokey": "arijit-singh"
+        },
+        {
+          "artist_id": "307214",
+          "name": "Sharib - Toshi",
+          "seokey": "sharib-toshi-3"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "56",
+          "name": "Bollywood"
+        }
+      ],
+      "lyrics_url": "http://www.lyricstaal.com/samjhawan-lyrics-humpty-sharma-ki-dulhania-2014/",
+      "video_url": "www.youtube.com/embed/Lmr_zg2iQeU",
+      "popularity": "4044575~4044575",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "269",
+      "isrc": "INS171401263",
+      "is_most_popular": 1,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "1",
+          "high": "0",
+          "extreme": "0"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "1",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "17"
+    },
+    {
+      "track_id": "2675835",
+      "seokey": "tere-hoke-rehengay-reprise",
+      "albumseokey": "raja-natwarlal",
+      "track_title": "Tere Hoke Rahengay",
+      "album_id": "227407",
+      "album_title": "Raja Natwarlal",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/7/227407/crop_80x80_227407.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/7/227407/crop_175x175_227407.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/7/227407/crop_480x480_227407.jpg",
+      "artist": [
+        {
+          "artist_id": "52767",
+          "name": "Arijit Singh",
+          "seokey": "arijit-singh"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "56",
+          "name": "Bollywood"
+        }
+      ],
+      "lyrics_url": "",
+      "video_url": " http://www.youtube.com/embed/CcCkXKbBkzY",
+      "popularity": "4044575~3661102",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "243",
+      "isrc": "0",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "1",
+          "high": "0",
+          "extreme": "1"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "1",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "11390"
+    },
+    {
+      "track_id": "3116650",
+      "seokey": "dhoom-dhaam",
+      "albumseokey": "action-jackson",
+      "track_title": "Dhoom Dhaam",
+      "album_id": "259249",
+      "album_title": "Action Jackson",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/49/259249/crop_80x80_259249.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/49/259249/crop_175x175_259249.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/49/259249/crop_480x480_259249.jpg",
+      "artist": [
+        {
+          "artist_id": "47556",
+          "name": "Palak Muchhal",
+          "seokey": "palak-muchhal"
+        },
+        {
+          "artist_id": "47564",
+          "name": "Ankit Tiwari",
+          "seokey": "ankit-tiwari"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "56",
+          "name": "Bollywood"
+        }
+      ],
+      "lyrics_url": "http://www.lyricsmint.com/2014/11/dhoom-dhaam-action-jackson.html",
+      "video_url": "",
+      "popularity": "4044575~280471",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "276",
+      "isrc": "0",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "0",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "11380"
+    },
+    {
+      "track_id": "2962952",
+      "seokey": "g-phaad-ke",
+      "albumseokey": "happy-ending-hindi",
+      "track_title": "G Phaad Ke",
+      "album_id": "242543",
+      "album_title": "Happy Ending",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/43/242543/crop_80x80_242543.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/43/242543/crop_175x175_242543.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/43/242543/crop_480x480_242543.jpg",
+      "artist": [
+        {
+          "artist_id": "13506",
+          "name": "Divya Kumar",
+          "seokey": "divya-kumar"
+        },
+        {
+          "artist_id": "54167",
+          "name": "Shefali Alvares",
+          "seokey": "shefali-alvares"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "56",
+          "name": "Bollywood"
+        }
+      ],
+      "lyrics_url": "http://www.lyricsmint.com/2014/10/g-phaad-ke-happy-ending.html",
+      "video_url": "",
+      "popularity": "4044575~461765",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "192",
+      "isrc": "0",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "0",
+          "high": "0",
+          "extreme": "0"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "0",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "11380"
+    },
+    {
+      "track_id": "3119907",
+      "seokey": "tu-zaroori",
+      "albumseokey": "zid-original-motion-picture-soundtrack",
+      "track_title": "Tu Zaroori",
+      "album_id": "264656",
+      "album_title": "Zid (Original Motion Picture Soundtrack)",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/56/264656/crop_80x80_264656.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/56/264656/crop_175x175_264656.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/56/264656/crop_480x480_264656.jpg",
+      "artist": [
+        {
+          "artist_id": "330785",
+          "name": "Sharib Toshi",
+          "seokey": ""
+        },
+        {
+          "artist_id": "12",
+          "name": "Sunidhi Chauhan",
+          "seokey": "sunidhi-chauhan"
+        },
+        {
+          "artist_id": "143411",
+          "name": "Sharib Sabri",
+          "seokey": "sharib-sabri"
+        },
+        {
+          "artist_id": "52767",
+          "name": "Arijit Singh",
+          "seokey": "arijit-singh"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "585",
+          "name": "Soundtrack (Bollywood)"
+        }
+      ],
+      "lyrics_url": "",
+      "video_url": "",
+      "popularity": "4044575~231905",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "291",
+      "isrc": "INS171402343",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "0",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "17"
+    },
+    {
+      "track_id": "3197840",
+      "seokey": "radha-nachegi",
+      "albumseokey": "tevar",
+      "track_title": "Radha Nachegi",
+      "album_id": "268395",
+      "album_title": "Tevar",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/95/268395/crop_80x80_268395.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/95/268395/crop_175x175_268395.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/95/268395/crop_480x480_268395.jpg",
+      "artist": [
+        {
+          "artist_id": "528",
+          "name": "Ritu Pathak",
+          "seokey": "ritu-pathak"
+        },
+        {
+          "artist_id": "565",
+          "name": "Shabab Sabri",
+          "seokey": "shabab-sabri"
+        },
+        {
+          "artist_id": "200059",
+          "name": "Danish Sabri",
+          "seokey": "danish-sabri"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "56",
+          "name": "Bollywood"
+        }
+      ],
+      "lyrics_url": "http://www.lyricsmint.com/2014/11/radha-nachegi-tevar.html",
+      "video_url": "",
+      "popularity": "4044575~120704",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "384",
+      "isrc": "0",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "0"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "0",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "11380"
+    },
+    {
+      "track_id": "3119906",
+      "seokey": "saanson-ko",
+      "albumseokey": "zid-original-motion-picture-soundtrack",
+      "track_title": "Saanson Ko",
+      "album_id": "264656",
+      "album_title": "Zid (Original Motion Picture Soundtrack)",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/56/264656/crop_80x80_264656.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/56/264656/crop_175x175_264656.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/56/264656/crop_480x480_264656.jpg",
+      "artist": [
+        {
+          "artist_id": "330785",
+          "name": "Sharib Toshi",
+          "seokey": ""
+        },
+        {
+          "artist_id": "52767",
+          "name": "Arijit Singh",
+          "seokey": "arijit-singh"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "585",
+          "name": "Soundtrack (Bollywood)"
+        }
+      ],
+      "lyrics_url": "",
+      "video_url": "",
+      "popularity": "4044575~262153",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "286",
+      "isrc": "INS171402346",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "0",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "17"
+    },
+    {
+      "track_id": "3080957",
+      "seokey": "dance-basanti",
+      "albumseokey": "ungli-original-motion-picture-soundtrack",
+      "track_title": "Dance Basanti",
+      "album_id": "261932",
+      "album_title": "Ungli (Original Motion Picture Soundtrack)",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/32/261932/crop_80x80_261932.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/32/261932/crop_175x175_261932.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/32/261932/crop_480x480_261932.jpg",
+      "artist": [
+        {
+          "artist_id": "86611",
+          "name": "Sachin - Jigar",
+          "seokey": "sachin-jigar-1"
+        },
+        {
+          "artist_id": "143",
+          "name": "Vishal Dadlani",
+          "seokey": "vishal-dadlani"
+        },
+        {
+          "artist_id": "107",
+          "name": "Anushka Manchanda",
+          "seokey": "anushka-manchanda"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "1723",
+          "name": "Bollywood Ost"
+        }
+      ],
+      "lyrics_url": "",
+      "video_url": "",
+      "popularity": "4044575~292551",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "223",
+      "isrc": "INS171402222",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "0",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "17"
+    },
+    {
+      "track_id": "3080958",
+      "seokey": "pakeezah",
+      "albumseokey": "ungli-original-motion-picture-soundtrack",
+      "track_title": "Pakeezah",
+      "album_id": "261932",
+      "album_title": "Ungli (Original Motion Picture Soundtrack)",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/32/261932/crop_80x80_261932.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/32/261932/crop_175x175_261932.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/32/261932/crop_480x480_261932.jpg",
+      "artist": [
+        {
+          "artist_id": "27782",
+          "name": "Gulraj Singh",
+          "seokey": "gulraj-singh"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "1723",
+          "name": "Bollywood Ost"
+        }
+      ],
+      "lyrics_url": "",
+      "video_url": "",
+      "popularity": "4044575~190646",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "265",
+      "isrc": "INS171402223",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "0",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "17"
+    },
+    {
+      "track_id": "2723506",
+      "seokey": "bang-bang-103",
+      "albumseokey": "bang-bang-original-motion-picture-soundtrack",
+      "track_title": "Bang Bang",
+      "album_id": "231946",
+      "album_title": "Bang Bang (Original Motion Picture Soundtrack)",
+      "language": "Hindi",
+      "artwork": "http://a10.gaanacdn.com/images/albums/46/231946/crop_80x80_231946.jpg",
+      "artwork_web": "http://a10.gaanacdn.com/images/albums/46/231946/crop_175x175_231946.jpg",
+      "artwork_large": "http://a10.gaanacdn.com/images/albums/46/231946/crop_480x480_231946.jpg",
+      "artist": [
+        {
+          "artist_id": "47",
+          "name": "Vishal",
+          "seokey": "vishal"
+        },
+        {
+          "artist_id": "375",
+          "name": "Shekhar",
+          "seokey": "shekhar"
+        },
+        {
+          "artist_id": "185",
+          "name": "Benny Dayal",
+          "seokey": "benny-dayal"
+        },
+        {
+          "artist_id": "125941",
+          "name": "Neeti Mohan",
+          "seokey": "neeti-mohan"
+        }
+      ],
+      "gener": [
+        {
+          "genre_id": "56",
+          "name": "Bollywood"
+        }
+      ],
+      "lyrics_url": "",
+      "video_url": "",
+      "popularity": "4044575~1634352",
+      "rating": "0",
+      "content_source": "1",
+      "stream_type": "rtmp",
+      "duration": "318",
+      "isrc": "INZ031400144",
+      "is_most_popular": 0,
+      "track_format": {
+        "mp3": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        },
+        "mp4_aac": {
+          "normal": "0",
+          "medium": "1",
+          "high": "1",
+          "extreme": "1"
+        }
+      },
+      "rtmp": "0",
+      "http": "0",
+      "https": "0",
+      "rtsp": "1",
+      "display_global": "0",
+      "mobile": 1,
+      "country": 1,
+      "vendor": "17"
+    }
+  ],
+  "count": 17,
+  "user-token-status": 0,
+  "user_token_status": 0
+}
