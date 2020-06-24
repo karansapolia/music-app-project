@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
-import PropTypes from "prop-types";
+import React, { useState, useEffect } from "react";
+// import PropTypes from "prop-types";
 import { Card, Placeholder } from "../common/helpers";
 import SongCard from "../SongCard/index";
 import GridLayout from "../common/GridLayout";
 import useMusicPlayer from "../../hooks/useMusicPlayer";
-import { fetchItunesSearchAPIResults } from "../../API";
+// import { fetchItunesSearchAPIResults } from "../../API";
 // import GlobalContext from '../../contexts/GlobalContext';
 
 const placeholderImages = (
@@ -132,60 +132,47 @@ const placeholderImages = (
   </>
 );
 
-const RowElements = ({ children }) => (
-  <div>{children || placeholderImages}</div>
-);
+// const RowElements = ({ children }) => (
+//   <div>{children || placeholderImages}</div>
+// );
 
 const FrontPage = () => {
-  // const state = useContext(GlobalContext);
-  const {
-    // trackList,
-    // currentTrackName,
-    playTrack,
-    // isPlaying,
-    state: musicContextState,
-    setState: setMusicContextState,
-  } = useMusicPlayer();
-  const [error, setError] = useState(null);
-  const [songs, setSongs] = useState([]);
+  const { playTrack, state: musicContextState } = useMusicPlayer();
 
-  const fetchSongs = async () => {
-    try {
-      // const response = await fetchFirst20Songs(state.user.token);
-      const response = await fetchItunesSearchAPIResults("Badshah");
-      console.log(response.data);
-      const onlySongs = response.data.filter(entry => entry.kind === "song");
-      setSongs(onlySongs);
-      console.log("Songs fetched and set.");
-      // if (!response.data.songs) {
-      //   setError('No songs found');
-      // } else {
-      //   setError(null);
-      //   setSongs(response.data.songs);
-      // }
-      const newSongsState = [];
-      onlySongs.forEach(song => {
-        newSongsState.push({ name: song.trackName, file: song.previewUrl });
-      });
-      setMusicContextState({ ...musicContextState, tracks: newSongsState });
-    } catch (err) {
-      setError("Network error");
-    }
-  };
+  const [tracks, setTracks] = useState(null);
 
   useEffect(() => {
-    fetchSongs();
-  }, []);
+    setTracks(musicContextState.tracks);
+  }, [musicContextState]);
+  // const state = useContext(GlobalContext);
+
+  // const fetchSongs = async () => {
+  //   try {
+  //     // const response = await fetchFirst20Songs(state.user.token);
+  //     const response = await fetchItunesSearchAPIResults("Badshah");
+  //     console.log(response.data);
+  //     const onlySongs = response.data.filter(entry => entry.kind === "song");
+  //     console.log("Songs fetched and set.");
+  //     const newSongsState = [];
+  //     onlySongs.forEach(song => {
+  //       newSongsState.push({ name: song.trackName, file: song.previewUrl });
+  //     });
+  //     setMusicContextState({ ...musicContextState, tracks: newSongsState });
+  //   } catch (err) {
+  //     setError("Network error");
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   fetchSongs();
+  // }, [tracks]);
 
   const conditionallyRenderSongs = () => {
-    if (error) {
-      return <h4>{error}</h4>;
-    }
-
     console.log("conditionallyRenderSongs ran!");
+    console.log(musicContextState.tracks);
     return (
       <>
-        {songs.map(track => (
+        {tracks.map(track => (
           <SongCard
             coverImage={track.artworkUrl100}
             key={track.trackId}
@@ -209,17 +196,20 @@ const FrontPage = () => {
       verticalAlign="middle"
       textAlign="center"
     >
-      {songs.length > 0 ? conditionallyRenderSongs() : placeholderImages}
+      {console.log("FrontPage render: ", tracks)}
+      {tracks && tracks.length > 0
+        ? conditionallyRenderSongs()
+        : placeholderImages}
     </GridLayout>
   );
 };
 
-RowElements.propTypes = {
-  children: PropTypes.node,
-};
+// RowElements.propTypes = {
+//   children: PropTypes.node,
+// };
 
-RowElements.defaultProps = {
-  children: placeholderImages,
-};
+// RowElements.defaultProps = {
+//   children: placeholderImages,
+// };
 
 export default FrontPage;

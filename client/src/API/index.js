@@ -1,7 +1,7 @@
-import axios from 'axios';
-import axiosConfig from '../config/axiosConfig';
+import axios from "axios";
+import axiosConfig from "../config/axiosConfig";
 
-const user = JSON.parse(localStorage.getItem('user'));
+const user = JSON.parse(localStorage.getItem("user"));
 
 function getToken() {
   if (user) {
@@ -12,7 +12,7 @@ function getToken() {
 const signup = async body => {
   try {
     delete axiosConfig.headers.authorization;
-    const response = await axios.post('auth/signup', body, axiosConfig);
+    const response = await axios.post("auth/signup", body, axiosConfig);
     return response.data.user;
   } catch (err) {
     if (err.response) {
@@ -25,7 +25,7 @@ const signup = async body => {
 const signin = async body => {
   try {
     delete axiosConfig.headers.authorization;
-    const response = await axios.post('auth/signin', body, axiosConfig);
+    const response = await axios.post("auth/signin", body, axiosConfig);
     return response.data.user;
   } catch (err) {
     if (err.response) {
@@ -49,6 +49,7 @@ const fetchItunesSearchAPIResults = async term => {
         withCredentials: true,
       });
     }
+    console.log("fetchItunesSearchAPIResults : ", response.data);
     return response;
   } catch (err) {
     throw new Error(err);
@@ -62,7 +63,7 @@ const fetchFirst20Songs = async token => {
     } else {
       getToken();
     }
-    const response = await axios.get('/songs/20', axiosConfig);
+    const response = await axios.get("/songs/20", axiosConfig);
     return response;
   } catch (err) {
     throw new Error(err);
