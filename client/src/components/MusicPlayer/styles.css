@@ -1,13 +1,15 @@
 .music-player {
   background-color: whitesmoke;
   position: fixed;
+  z-index: 10;
   width: 100%;
   bottom: 0;
   padding: 1rem;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: 'first-row' 'second-row';
-  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
+  grid-template-areas: "first-row" "second-row";
+  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4),
+    0 10px 10px -10px rgba(50, 50, 73, 0.3);
 }
 
 .first-row + .second-row {
