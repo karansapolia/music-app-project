@@ -137,7 +137,7 @@ const placeholderImages = (
 // );
 
 const FrontPage = () => {
-  const { playTrack, state: musicContextState } = useMusicPlayer();
+  const { state: musicContextState } = useMusicPlayer();
 
   const [tracks, setTracks] = useState(null);
 
@@ -172,17 +172,13 @@ const FrontPage = () => {
     console.log(musicContextState.tracks);
     return (
       <>
-        {tracks.map(track => (
+        {tracks.map((track, i) => (
           <SongCard
             coverImage={track.artworkUrl100}
             key={track.trackId}
+            index={i}
             name={track.trackName}
             songPreview={track.previewUrl}
-            onClick={event => {
-              event.preventDefault();
-              console.log("<SongCard /> clicked");
-              playTrack(track.previewUrl, track.trackName);
-            }}
           />
         ))}
       </>

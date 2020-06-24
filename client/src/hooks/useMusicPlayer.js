@@ -5,14 +5,7 @@ const useMusicPlayer = () => {
   const [state, setState] = useContext(MusicPlayerContext);
 
   useEffect(() => {
-    state.audioPlayer.addEventListener("ended", () => {
-      setState({ ...state, isPlaying: false });
-      console.log("Song ended. Player stopped");
-    });
-  }, []);
-
-  useEffect(() => {
-    console.log("New MusicContext state: ", state);
+    console.log("useMusicPlayer - New MusicContext state: ", state);
   }, [state]);
 
   function togglePlay() {

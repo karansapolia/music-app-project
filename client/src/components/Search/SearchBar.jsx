@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import debounce from "lodash/debounce";
 // import IconButton from "@material-ui/core/IconButton";
 import SearchIcon from "@material-ui/icons/Search";
+import CircularProgress from "@material-ui/core/CircularProgress";
 import InputBase from "@material-ui/core/InputBase";
 import { fade, makeStyles } from "@material-ui/core/styles";
 import { fetchItunesSearchAPIResults } from "../../API";
@@ -16,6 +17,8 @@ const useStyles = makeStyles(theme => ({
       backgroundColor: fade(theme.palette.common.white, 0.25),
     },
     width: "100%",
+    display: "flex",
+    flexFlow: "row nowrap",
   },
   searchIcon: {
     padding: theme.spacing(0, 2),
@@ -131,6 +134,9 @@ const SearchBar = () => {
           onChange={handleSearch}
         />
       </form>
+      {state.loading ? (
+        <CircularProgress color="secondary" size="2rem" />
+      ) : null}
     </div>
   );
 };
