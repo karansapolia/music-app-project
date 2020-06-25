@@ -36,11 +36,9 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(1, 1, 1, 0),
     // vertical padding + font size from searchIcon
     paddingLeft: `calc(1em + ${theme.spacing(4)}px)`,
+    paddingRight: `calc(1em + ${theme.spacing(1)}px)`,
     transition: theme.transitions.create("width"),
     width: "100%",
-    [theme.breakpoints.up("md")]: {
-      width: "20ch",
-    },
   },
 }));
 
@@ -115,25 +113,18 @@ const SearchBar = () => {
         <SearchIcon />
       </div>
       {console.log(state)}
-      <form
-        onSubmit={e => {
-          e.preventDefault();
-          return false;
+      <InputBase
+        placeholder="Search..."
+        style={{
+          width: "100%",
         }}
-      >
-        <InputBase
-          placeholder="Search..."
-          style={{
-            width: "100%",
-          }}
-          classes={{
-            root: classes.inputRoot,
-            input: classes.inputInput,
-          }}
-          inputProps={{ "aria-label": "search" }}
-          onChange={handleSearch}
-        />
-      </form>
+        classes={{
+          root: classes.inputRoot,
+          input: classes.inputInput,
+        }}
+        inputProps={{ "aria-label": "search" }}
+        onChange={handleSearch}
+      />
       {state.loading ? (
         <CircularProgress color="secondary" size="1rem" />
       ) : null}
