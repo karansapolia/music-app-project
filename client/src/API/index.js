@@ -39,15 +39,7 @@ const fetchItunesSearchAPIResults = async term => {
   let response = null;
   try {
     if (term) {
-      response = await axios.get(`/search/${term}`, {
-        crossdomain: true,
-        withCredentials: true,
-      });
-    } else {
-      response = await axios.get(`/search/Sushant+Singh+Rajput`, {
-        crossdomain: true,
-        withCredentials: true,
-      });
+      response = await axios.get(`/search/${term}`, axiosConfig);
     }
     console.log("fetchItunesSearchAPIResults : ", response.data);
     return response;

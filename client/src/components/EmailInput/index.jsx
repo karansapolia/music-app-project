@@ -1,5 +1,5 @@
-import React from 'react';
-import Input from '../FormInput';
+import React from "react";
+import Input from "../FormInput";
 
 const EmailInput = () => (
   <Input

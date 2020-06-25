@@ -135,7 +135,7 @@ const SearchBar = () => {
         />
       </form>
       {state.loading ? (
-        <CircularProgress color="secondary" size="2rem" />
+        <CircularProgress color="secondary" size="1rem" />
       ) : null}
     </div>
   );

@@ -1,17 +1,22 @@
-import React, { useContext } from 'react';
-import { Dropdown, Image } from '../common/helpers';
-import GlobalContext from '../../contexts/GlobalContext';
+import React, { useContext } from "react";
+import { Dropdown, Image } from "../common/helpers";
+import GlobalContext from "../../contexts/GlobalContext";
 
 const UserDropdown = () => {
   const { state } = useContext(GlobalContext);
   const profile = state.user || {};
-  const name = profile.name.split(' ')[0];
+  const name = profile.name.split(" ")[0];
 
   const onLogout = () => {};
 
   const userProfileImage = (
     <span>
-      <Image circular size="mini" src={profile.profileImage} alt="user avatar" />
+      <Image
+        circular
+        size="mini"
+        src={profile.profileImage}
+        alt="user avatar"
+      />
     </span>
   );
 
@@ -22,7 +27,7 @@ const UserDropdown = () => {
         <Dropdown.Item
           text="Playlists"
           onClick={() => {
-            console.log('Show playlists');
+            console.log("Show playlists");
           }}
         />
         <Dropdown.Item text="Sign Out" onClick={onLogout} />

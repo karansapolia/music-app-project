@@ -1,21 +1,21 @@
-import React, { useState } from 'react';
-import { Menu } from '../../common/helpers';
-import SigninForm from './SigninForm';
-import SignupForm from './SignupForm';
+import React, { useState } from "react";
+import { Menu } from "../../common/helpers";
+import SigninForm from "./SigninForm";
+import SignupForm from "./SignupForm";
 
 const Authentication = () => {
-  const [activeItem, setActiveItem] = useState('signin');
+  const [activeItem, setActiveItem] = useState("signin");
   const menuStyle = {
-    flexDirection: 'row',
+    flexDirection: "row",
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: "center",
   };
 
   const renderForm = () => {
-    if (activeItem === 'signin') {
+    if (activeItem === "signin") {
       return <SigninForm />;
     }
-    if (activeItem === 'signup') {
+    if (activeItem === "signup") {
       return <SignupForm />;
     }
     return null;
@@ -24,8 +24,16 @@ const Authentication = () => {
   return (
     <>
       <Menu pointing secondary style={menuStyle}>
-        <Menu.Item name="Sign In" active={activeItem === 'signin'} onClick={() => setActiveItem('signin')} />
-        <Menu.Item name="Sign Up" active={activeItem === 'signup'} onClick={() => setActiveItem('signup')} />
+        <Menu.Item
+          name="Sign In"
+          active={activeItem === "signin"}
+          onClick={() => setActiveItem("signin")}
+        />
+        <Menu.Item
+          name="Sign Up"
+          active={activeItem === "signup"}
+          onClick={() => setActiveItem("signup")}
+        />
       </Menu>
       {renderForm()}
     </>

@@ -1,24 +1,24 @@
-import express from 'express';
-import cors from 'cors';
-import env from './env';
-import routes from '../routes';
+import express from "express";
+import cors from "cors";
+import env from "./env";
+import routes from "../routes";
 
 const app = () => {
   let application;
   const server = express();
 
   const create = () => {
-    server.set('port', env.port);
+    server.set("port", env.port);
     server.use(express.json());
     server.use(express.urlencoded({ extended: true }));
-    server.options('*', cors());
+    server.options("*", cors());
     server.use(
       cors({
         credentials: true,
-        allowedHeaders: ['Content-Type', 'Authorization'],
-        methods: '*',
-        origin: '*',
-        exposedHeaders: '*',
+        allowedHeaders: ["Content-Type", "Authorization"],
+        methods: "*",
+        origin: "*",
+        exposedHeaders: "*",
       }),
     );
 
@@ -26,7 +26,7 @@ const app = () => {
   };
 
   const start = () => {
-    const port = server.get('port');
+    const port = server.get("port");
     application = server.listen(port, () => {
       console.log(`server listening on port ${port}`);
     });
@@ -34,12 +34,14 @@ const app = () => {
 
   const stop = () => {
     application.close(() => {
-      console.log('Shutting down server');
+      console.log("Shutting down server");
       process.exit(0);
     });
 
     setTimeout(() => {
-      console.log('Could not close connection gracefully, forcefully shutting down');
+      console.log(
+        "Could not close connection gracefully, forcefully shutting down",
+      );
       process.exit(1);
     }, 10000);
   };

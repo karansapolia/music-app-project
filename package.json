@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "A MERN Music player application",
   "main": "index.js",
-  "private": true,
-  "workspaces": [
-    "client",
-    "server"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server:dev": "cd server && yarn dev",
@@ -36,7 +31,16 @@
   "homepage": "https://github.com/karansapolia/music-app-project#readme",
   "devDependencies": {
     "concurrently": "^5.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.11"
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
   }
 }
